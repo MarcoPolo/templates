@@ -10,6 +10,11 @@
         description = "A very basic flake";
       };
 
+      typescript = {
+        path = ./typescript;
+        description = "Basic typescript environment. Run `setup`.";
+      };
+
       simpleContainer = {
         path = ./simple-container;
         description = "A NixOS container running apache-httpd";

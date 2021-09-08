@@ -25,6 +25,11 @@
         description = "A Rust project template. Only includes a devShell setup.";
       };
 
+      jupyter = {
+        path = ./jupyter;
+        description = "A jupyter project template.";
+      };
+
     };
 
     defaultTemplate = self.templates.trivial;
